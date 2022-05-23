@@ -1,8 +1,6 @@
 Il progetto contiene sia il server TCP che HTTP
 
-Eseguendo il main in StartServers
-
-si avviano sia il server TCP che il server HTTP
+Eseguendo il main in StartServers si avviano sia il server TCP che il server HTTP
 
 Per il server TCP (127.0.0.1 1234) eseguire il main nella classe App
 da console:
