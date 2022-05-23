@@ -36,12 +36,12 @@ public class App {
         buildCitiesList();
 
         while (true){
-            ciclo(portNumber, hostName);
+            ciclo();
         }
 
     }
 
-    private static void ciclo(int portNumber, String hostName) {
+    private static void ciclo() {
 
         connettiClient();
 
@@ -49,7 +49,7 @@ public class App {
 
         connected.get(connected.size()-1).start();
 
-        int count = connected.size();
+//        int count = connected.size();
 
     }
 
@@ -79,7 +79,7 @@ public class App {
         piatti.add(new Piatto("Il classico primo", 4,
                 "Spaghetti al pomodoro",7.79));
         piatti.add(new Piatto("La famosa pizza con pomodore e mozzarella", 2,
-                "Pizza margherita",7.79));
+                "Pizza margherita",4.00));
         System.out.println(piatti);
     }
 
