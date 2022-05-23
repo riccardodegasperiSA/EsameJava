@@ -16,15 +16,15 @@ public class App {
 
     public static ArrayList<ClientHandler> connected = new ArrayList<>();
 
-    public static void main(String[] args) {
+    public static void main(){//String[] args) {
 
         String hostName = "127.0.0.1";
         int portNumber = 1234;
 
-        if (args.length > 0) {
-            hostName = args[0];
-            portNumber = Integer.parseInt(args[1]);
-        }
+//        if (args.length > 0) {
+//            hostName = args[0];
+//            portNumber = Integer.parseInt(args[1]);
+//        }
 
 
 

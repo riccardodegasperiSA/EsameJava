@@ -15,7 +15,7 @@ public class HTTPApp
 
     static ArrayList<Piatto> piatti = new ArrayList<>();
 
-    public static void main( String[] args )
+    public static void main()// String[] args )
     {
 
         buildCitiesList();
